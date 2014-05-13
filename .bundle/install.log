@@ -1,0 +1,10 @@
+# Logfile created on 2014-05-13 14:00:18 -0400 by logger.rb/44203
+I, [2014-05-13T14:00:18.894705 #3753]  INFO -- : 0:  builder (3.2.2) from /Users/seatgeek/.rvm/gems/ruby-2.1.0/specifications/builder-3.2.2.gemspec
+I, [2014-05-13T14:00:19.565284 #3753]  INFO -- : 0:  jwt (1.0.0) from /Users/seatgeek/.rvm/gems/ruby-2.1.0/specifications/jwt-1.0.0.gemspec
+I, [2014-05-13T14:00:20.303880 #3753]  INFO -- : 0:  multi_json (1.10.0) from /Users/seatgeek/.rvm/gems/ruby-2.1.0/specifications/multi_json-1.10.0.gemspec
+I, [2014-05-13T14:00:20.304378 #3753]  INFO -- : 0:  rack (1.5.2) from /Users/seatgeek/.rvm/gems/ruby-2.1.0@global/specifications/rack-1.5.2.gemspec
+I, [2014-05-13T14:00:20.304708 #3753]  INFO -- : 0:  shotgun (0.9) from /Users/seatgeek/.rvm/gems/ruby-2.1.0/specifications/shotgun-0.9.gemspec
+I, [2014-05-13T14:00:20.305036 #3753]  INFO -- : 0:  tilt (1.4.1) from /Users/seatgeek/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-05-13T14:00:21.139795 #3753]  INFO -- : 0:  sinatra (1.1.0) from /Users/seatgeek/.rvm/gems/ruby-2.1.0/specifications/sinatra-1.1.0.gemspec
+I, [2014-05-13T14:00:21.140514 #3753]  INFO -- : 0:  twilio-ruby (3.11.5) from /Users/seatgeek/.rvm/gems/ruby-2.1.0/specifications/twilio-ruby-3.11.5.gemspec
+I, [2014-05-13T14:00:21.140917 #3753]  INFO -- : 0:  bundler (1.5.1) from /Users/seatgeek/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.1.gemspec
