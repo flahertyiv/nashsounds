@@ -5,7 +5,7 @@ require 'shotgun'
  
 get '/sms-quickstart' do
    twiml = Twilio::TwiML::Response.new do |r|
-   		r.Message "Hey Will! Thanks for the message!"
+   		r.Message "To finalize your entry into the SeatGeek upgrade contest, download the SeatGeek app here --> http://www.seatgeek.com/m"
    	end
    	twiml.text
 end
