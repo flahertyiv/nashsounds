@@ -10,9 +10,9 @@ get '/pitt' do
    	twiml.text
 end
 
-get '/sms-quickstart' do
+get '/nashsounds' do
    twiml = Twilio::TwiML::Response.new do |r|
-   		r.Message "To finalize your entry into the SeatGeek upgrade contest, download the SeatGeek app here --> http://www.seatgeek.com/m"
+   		r.Message "To finalize your entry into the SeatGeek upgrade contest, download the SeatGeek app here --> http://goo.gl/vBSQrJ"
    	end
    	twiml.text
 end
