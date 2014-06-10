@@ -37,3 +37,10 @@ get '/dal' do
       end
       twiml.text
 end
+
+get '/growco' do
+   twiml = Twilio::TwiML::Response.new do |r|
+         r.Message "We're giving away $75 of FREE tickets today at Grow.co! Download SeatGeek HERE to enter --> http://goo.gl/0GMj8I"
+      end
+      twiml.text
+end
