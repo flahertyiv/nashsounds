@@ -44,3 +44,10 @@ get '/growco' do
       end
       twiml.text
 end
+
+get '/raniers' do
+   twiml = Twilio::TwiML::Response.new do |r|
+         r.Message "To finalize your entry into the SeatGeek contest, download the SeatGeek app using this link --> http://goo.gl/vBSQrJ"
+      end
+      twiml.text
+end
