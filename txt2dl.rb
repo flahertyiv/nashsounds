@@ -5,8 +5,11 @@ require 'shotgun'
  
 get '/pitt' do
    twiml = Twilio::TwiML::Response.new do |r|
-   		r.Say "There's just one last step to enter SeatGeek’s Pirates ticket giveaway! Download the FREE SeatGeek app here to finalize your entry", voice: 'alice'
-   	end
+         r.Say 'hello there', voice: 'alice'
+         r.Dial callerId: '+17138061168' do |d|
+         d.Client 'jenny'
+  end
+end
    	twiml.text
 end
 
