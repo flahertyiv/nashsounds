@@ -64,7 +64,7 @@ end
 
 get '/dcbar' do
    twiml = Twilio::TwiML::Response.new do |r|
-         r.Message "Hey DC Sports Fan! Download the SeatGeek app with this link to claim your $20 rebate --> http://goo.gl/vXmn2u"
+         r.Message "Hey DC Sports Fan! Download the SeatGeek app w/ and enter code ''BEER'' for a $20 rebate off your first purchase --> http://bit.ly/1NZEK5k"
       end
       twiml.text
 end
