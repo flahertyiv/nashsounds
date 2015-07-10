@@ -5,8 +5,8 @@ require 'shotgun'
  
 get '/pitt' do
    twiml = Twilio::TwiML::Response.new do |r|
-         r.Say 'Dear Alex, I am calling to inform you that Will has plussed. I hope that you have a pleasant evening. Goodnight and godspeed.', voice: 'alice', language: "en-GB"
          r.Dial callerId: '+17138061168' do |d|
+         r.Say 'Dear Alex, I am calling to inform you that Will has plussed. I hope that you have a pleasant evening. Goodnight and godspeed.', voice: 'alice', language: "en-GB"
          d.Client 'jenny'
   end
 end
