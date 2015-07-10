@@ -5,7 +5,7 @@ require 'shotgun'
  
 get '/pitt' do
    twiml = Twilio::TwiML::Response.new do |r|
-         r.Say 'Dear Alex, I am calling to inform you that Will has plussed. I hope that you have a pleasant evening.', voice: 'alice', language: "en-GB"
+         r.Say 'Dear Alex, I am calling to inform you that Will has plussed. I hope that you have a pleasant evening. Goodnight and godspeed.', voice: 'alice', language: "en-GB"
          r.Dial callerId: '+17138061168' do |d|
          d.Client 'jenny'
   end
@@ -58,6 +58,13 @@ end
 get '/12thman' do
    twiml = Twilio::TwiML::Response.new do |r|
          r.Message "To finalize your entry into the SeatGeek contest, download the SeatGeek app using this link --> http://goo.gl/vXmn2u"
+      end
+      twiml.text
+end
+
+get '/dcbar' do
+   twiml = Twilio::TwiML::Response.new do |r|
+         r.Message "Hey DC Sports Fan! Download the SeatGeek app with this link to claim your $20 rebate --> http://goo.gl/vXmn2u"
       end
       twiml.text
 end
